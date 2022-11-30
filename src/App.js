@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/pure/greeting';
+import GreetingF from './components/pure/greetingF';
 
 function App() {
   return (
@@ -8,17 +9,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/*Componente propio greeting.jsx*/}
-          <Greeting name="Martín"></Greeting>
-
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         
-        </a>
+          {/* <Greeting name="Martín"></Greeting> */}
+          <GreetingF name="Martín"></GreetingF>
       </header>
     </div>
   );
